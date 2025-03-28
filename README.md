@@ -1,12 +1,74 @@
-# React + Vite
+# EmployWise User Management Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+This is a React-based user management application that integrates with the Reqres API to provide authentication, user listing, editing, and deletion functionalities.
 
-Currently, two official plugins are available:
+## Features
+- User Authentication
+- Paginated User List
+- User Edit and Delete Functionality
+- Responsive Design
+- Token-based Authentication
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Prerequisites
+- Node.js (v14 or later)
+- npm or yarn
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/employwise-app.git
+cd employwise-app
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the development server
+```bash
+npm start
+# or
+yarn start
+```
+
+## Technologies Used
+- React
+- React Router
+- Axios
+- Tailwind CSS
+- Reqres API
+
+## API Endpoints Used
+- POST /api/login
+- GET /api/users
+- PUT /api/users/{id}
+- DELETE /api/users/{id}
+
+## Authentication
+- Default Credentials:
+  - Email: eve.holt@reqres.in
+  - Password: cityslicka
+
+## Assumptions and Considerations
+- Token is stored in localStorage
+- Redirect to login if token is missing
+- Basic error handling implemented
+- Responsive design using Tailwind CSS
+
+## Bonus Features Implemented
+- React Router for navigation
+- Pagination for user list
+- Edit and Delete user functionality
+
+## Future Improvements
+- More robust error handling
+- Add client-side search/filtering
+- Implement refresh token mechanism
+
+## License
+MIT License
