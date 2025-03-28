@@ -18,8 +18,9 @@ This is a React-based user management application that integrates with the Reqre
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/employwise-app.git
-cd employwise-app
+git clone https://github.com/skillradius360/simpleAdminDashboard.git
+cd simpleAdminDashboard
+
 ```
 
 2. Install dependencies
