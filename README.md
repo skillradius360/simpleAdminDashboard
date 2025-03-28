@@ -1,4 +1,5 @@
-# EmployWise User Management Application
+# Admin Panel Simulation Application
+Site link :- [https://adminsimulator.netlify.app/login]
 
 ## Project Overview
 This is a React-based user management application that integrates with the Reqres API to provide authentication, user listing, editing, and deletion functionalities.
