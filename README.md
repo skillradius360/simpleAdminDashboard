@@ -1,5 +1,5 @@
 # Admin Panel Simulation Application
-Site link :- https://adminsimulator.netlify.app/login
+Site link :- https://simple-admin-dashboard-sable.vercel.app/
 
 ## Project Overview
 This is a React-based user management application that integrates with the Reqres API to provide authentication, user listing, editing, and deletion functionalities.
